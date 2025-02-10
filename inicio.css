@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Asap", serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6c63ff;
+}
+
+.contenidoPrincipal {
+    text-align: center;
+    padding: 50px;
+}
+
+.contenidoPrincipal h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.contenidoPrincipal p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.contenedores {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 10%;
+}
+
+.contenedor {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenedor img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.contenedor h3 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.contenedor img{
+    height: 250px;
+}
+
+.contenedor p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.contenedor .enlace {
+    display: inline-block;
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor .enlace:hover {
+    background-color: #5a53cc;
+}
+
+.contenedor:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.botonInicio{
+    background-color: #6c63ff;
+}
