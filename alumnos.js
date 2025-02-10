@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
     });
 
-    // Función para mostrar alumnos en la lista
+    // Mostrar alumnos en la lista
     function mostrarAlumnos(alumnos) {
         $("#tarjetasUsuarios").empty();
         if (alumnos.length > 0) {
@@ -45,7 +45,7 @@ $(document).ready(function () {
         }
     }
 
-    // Evento de filtrar por promocion
+    // Filtrar por promocion
     $("#filtrarPromocion").on("click", function () {
         let filtro = $("#filtroPromocion").val().trim();
         if (filtro === "") {
